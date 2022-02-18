@@ -1,0 +1,30 @@
+/* Animal background
+.zAnimalbackground {
+    opacity: 0.1;
+    position: absolute; top: 40vh; right: 0;
+    width: 80vw; height: 80vh; display: block;
+    background-image: url(../img/animal/1.svg); background-repeat: no-repeat;
+    transition: 1s ease-in;
+    z-index: 0;
+}
+
+.zAnimalbreath {
+    transform: scaleY(1.005) translateY(-0.5vh);
+}
+
+#zBlock:nth-child(1) {
+    position: relative;
+} */
+
+/* Blop background */
+
+/* #zBlock:nth-child(2) .container .zSlider {
+    background-color: white; position: relative;
+}
+
+#zBlock:nth-child(2) .zSlider #blobSvg {
+    position: absolute;
+    bottom: 0; left: 0;;
+    width: 45%; height: auto; opacity: 0.1;
+} */
+

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zootopia</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Owl -->
+    <link rel="stylesheet" href="assets/Owl/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/Owl/css/owl.theme.default.min.css">
+    <!-- Font google poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="zHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-lg-5 zLogo_area">
+                    <img id="zLogo" src="assets/img/logo_color.svg" alt="Zootopia">
+                </div>
+                <div class="zNav_area col-lg-7">
+                    <ul id="zNav">
+                        <li><a class="znavActive" href="#">Welcome</a></li>
+                        <li><a href="#zFeature">Feature</a></li>
+                        <li><a href="#zAbout">About us</a></li>
+                        <li><a href="#zTestimonial">Testimonial</a></li>
+                        <li><a href="#zContact">Contact</a></li>
+                        <li id="zButton"><button>Download</button></li>
+                    </ul>
+                </div>
+                <span class="material-icons col-6 zMenu">menu</span>
+            </div>
+        </div>
+    </div>
+    <!-- End of header -->
+    <!-- Welcome -->
+    <div id="zWelcome">
+        <div class="container">
+            <div class="row">
+                <div class="zBox col-lg-4"> 
+                    <h1 class="zHeading">Let's go to the animal world!</h1>
+                    <p class="zText">Zootopia is a social network where you can explore the animal world, share and interact with friends around the world.</p>
+                    <div class="zButtonBox">
+                        <button onclick=" window.open('https://play.google.com/','_blank')" class="zButton">
+                            <span class="material-icons">shop</span>
+                            <div>
+                                <span class="zSmall">Get it on</span>
+                                <span class="zBig">GooglePlay</span>
+                            </div>
+                        </button>
+                        <button onclick=" window.open('https://www.apple.com/','_blank')" class="zButton">
+                            <span class="material-icons">storefront</span>
+                            <div>
+                                <span class="zSmall">Get it on</span>
+                                <span class="zBig">Appstore </span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="zWelcomebg">
+        <img src="assets/img/shadow.svg" alt="" id="zTigershadow">
+        <img id="zBGtiger" src="assets/img/tiger.svg" alt="">
+        <img id="zBGgrass" src="assets/img/grass.svg" alt="">
+    </div>
+    <!-- End of Welcome -->
+    <!-- Feature -->
+    <div id="zBody">
+        <div id="zBlock" class="hide">
+            <div class="container">
+                <div id="zFeature" class="zTitle row">
+                    <div class="col">
+                        <h2>Our features</h2>
+                        <p>Our mission is to provide the most efficient platform for online social and learning activities.</p>
+                    </div>
+                </div>
+                <div class="zSlider row">
+                    <div class="col-0 col-lg-1"></div>
+                    <div class="col-12 col-lg-10">
+                        <div id="owl-one" class="owl-carousel owl-theme owl-loaded">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item zBox">               
+                                        <div class="zText zTextRight">
+                                            <h3>Explore the animal world!</h3>
+                                            <p>Zootopia has a lot of knowledge about the animal world. You can <span>read the information, see the pictures, watch the videos</span> of the animals you want.</p>
+                                            <div><button>Download now</button></div>
+                                        </div>
+                                        <div class="zImage">
+                                            <img src="assets/img/discorver.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item zBox">               
+                                        <div class="zText zTextRight">
+                                            <h3>Connect with friends!</h3>
+                                            <p>Zootopia is also a social network, where you can <span>save and share moments</span> as well as <span> make friends and interact with people around the world</span>.</p>
+                                            <div><button>Download now</button></div>
+                                        </div>
+                                        <div class="zImage">
+                                            <img src="assets/img/communication.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item zBox">               
+                                        <div class="zText zTextRight">
+                                            <h3>Enjoy the moments!</h3>
+                                            <p>Play Zootopia games to know more about animals, <span>earn badges and display it on your profile.</span> Zootopia's games also support <span>multiplayer</span>, you can play with your friends or other people around the world.</p>
+                                            <div><button>Download now</button></div>
+                                        </div>
+                                        <div class="zImage">
+                                            <img src="assets/img/game.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item zBox">               
+                                        <div class="zText zTextRight">
+                                            <h3>Easy, convenient and safe to use!</h3>
+                                            <p>Zootopia's interface is <span>friendly and easy to use.</span>friendly and easy to use. We also have <span>time management feature</span> as well as many other conveniences. And most of all, we create a <span>safe environment</span> that provides the best user experience.</p>
+                                            <div><button>Download now</button></div>
+                                        </div>
+                                        <div class="zImage">
+                                            <img src="assets/img/utility.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-0 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- <div class="zAnimalbackground"></div> -->
+        </div>
+        <div id="zBlock" class="hide">
+            <div class="container">
+                <div id="zAbout" class="zTitle row">
+                    <div class="col-lg">
+                        <h2>About us</h2>
+                        <p>Our mission is to provide the most efficient platform for online social and learning activities.</p>
+                    </div>
+                </div>
+                <div class="zSlider row zData">
+                    <div class="col-0 col-lg-1"></div>
+                    <div class="col-6 col-lg-2">
+                        <div>
+                            <span class="zBig">100K+</span>
+                            <span class="zSmall">Total Downloads</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <div>
+                            <span class="zBig">100K+</span>
+                            <span class="zSmall">Positive Reviews</span>
+                        </div>
+                    </div>
+                    <div class="zSpace col-4 col-lg-2">
+                        <div>
+                            <span class="zBig">100K+</span>
+                            <span class="zSmall">Daily User</span>
+                        </div>
+                    </div>
+                    <div class="zSpace col-4 col-lg-2">
+                        <div>
+                            <span class="zBig">100K+</span>
+                            <span class="zSmall">Daily Posts</span>
+                        </div>
+                    </div>
+                    <div class="zSpace col-4 col-lg-2">
+                        <div>
+                            <span class="zBig">100K+</span>
+                            <span class="zSmall">Daily Viewer</span>
+                        </div>
+                    </div>
+                    <div class="col-0 col-lg-1"></div>
+                </div>
+                <div class="zSlider row zScreenshot">
+                    <div class="col-lg"></div>
+                    <div class="col-lg-6">
+                        <div id="owl-two" class="owl-carousel owl-theme owl-loaded">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item"><img src="assets/img/slider/1 (1).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (2).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (3).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (4).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (5).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (6).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (7).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (8).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (9).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (10).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (11).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (12).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (13).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (14).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (15).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (16).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (17).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (18).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (19).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (20).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (21).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (22).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (23).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (24).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (25).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (26).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (27).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (28).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (29).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (30).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (31).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (32).png" alt=""></div>
+                                    <div class="owl-item"><img src="assets/img/slider/1 (33).png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg"></div>
+                    <div class="col-lg-3 zText">
+                        <h3>The screenshot of Zootopia</h3>
+                        <p>Let's see our splendid and smart Zootopia!</p>
+                        <div><button>Download now</button></div>
+                    </div>
+                    <!-- <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                        <defs>
+                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color: #ff4e00;"></stop>
+                            <stop offset="100%" style="stop-color: #ec9f05;"></stop>
+                          </linearGradient>
+                        </defs>
+                        <path fill="url(#gradient)">
+                            <animate attributeName="d" dur="10000ms" repeatCount="indefinite"
+                            values="M430,304Q399,358,352.5,390Q306,422,240,452.5Q174,483,128.5,427Q83,371,88.5,310.5Q94,250,94.5,193.5Q95,137,134.5,77Q174,17,242.5,40Q311,63,341.5,112Q372,161,416.5,205.5Q461,250,430,304Z;
+                            M415.5,301.5Q391,353,345.5,378.5Q300,404,248.5,408.5Q197,413,136.5,394.5Q76,376,61,313Q46,250,62.5,188Q79,126,128.5,77.5Q178,29,239,62.5Q300,96,342,124.5Q384,153,412,201.5Q440,250,415.5,301.5Z;
+                            M458.5,319.5Q441,389,380,426Q319,463,256.5,442.5Q194,422,124,407Q54,392,67,321Q80,250,67,178.5Q54,107,116,67.5Q178,28,250,28Q322,28,373,75.5Q424,123,450,186.5Q476,250,458.5,319.5Z;
+                            M452,314.5Q428,379,374.5,423.5Q321,468,259.5,439.5Q198,411,136,394.5Q74,378,73.5,314Q73,250,99,204.5Q125,159,163.5,131Q202,103,263,62.5Q324,22,349,91Q374,160,425,205Q476,250,452,314.5Z;
+                            M430,304Q399,358,352.5,390Q306,422,240,452.5Q174,483,128.5,427Q83,371,88.5,310.5Q94,250,94.5,193.5Q95,137,134.5,77Q174,17,242.5,40Q311,63,341.5,112Q372,161,416.5,205.5Q461,250,430,304Z" 
+                            >
+                            </animate>
+                        </path>
+                    </svg> -->
+                    <div class="col-lg"></div>
+                </div>
+                <div class="zSlider zPartner">
+                    <div class="row">
+                        <h3>Our partners</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-lg-4">
+                            <img src="assets/img/Partner/1200px-Discovery_Channel_-_Logo_2019.svg.png" alt="">
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <img src="assets/img/Partner/2560px-National-Geographic-Logo.svg.png" alt="">
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <img src="assets/img/Partner/768px-Wikipedia-logo-v2-wordmark.svg.png" alt="">
+                        </div>
+                        <div class="col-6 col-lg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="zBlock" class="hide">
+            <div class="container">
+                <div id="zTestimonial" class="zTitle row">
+                    <div class="col-lg">
+                        <h2>Testimonial</h2>
+                        <p>Our mission is to provide the most efficient platform for online social and learning activities.</p>
+                    </div>
+                </div>
+                <div class="row zReview">
+                    <div id="owl-three" class="owl-carousel owl-theme owl-loaded">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item zBox">               
+                                    <div class="zText">
+                                        <img src="assets/img/Avatar/1.png" alt="">
+                                        <p class="zName">Mr.Customer</p>
+                                        <div class="zStar">
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                        <p>Zootopia has a lot of knowledge about the animal world. You can read the information, see the pictures, watch the videos of the animals you want.</p>
+                                    </div>
+                                </div>
+                                <div class="owl-item zBox">               
+                                    <div class="zText">
+                                        <img src="assets/img/Avatar/2.png" alt="">
+                                        <p class="zName">Mr.Customer</p>
+                                        <div class="zStar">
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                        <p>Zootopia has a lot of knowledge about the animal world. You can read the information, see the pictures, watch the videos of the animals you want. </p>
+                                    </div>
+                                </div>
+                                <div class="owl-item zBox">               
+                                    <div class="zText">
+                                        <img src="assets/img/Avatar/3.png" alt="">
+                                        <p class="zName">Mr.Customer</p>
+                                        <div class="zStar">
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                        <p>Zootopia has a lot of knowledge about the animal world. You can read the information, see the pictures, watch the videos of the animals you want.</p>
+                                    </div>
+                                </div>
+                                <div class="owl-item zBox">               
+                                    <div class="zText">
+                                        <img src="assets/img/Avatar/4.png" alt="">
+                                        <p class="zName">Mr.Customer</p>
+                                        <div class="zStar">
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                        <p>Zootopia has a lot of knowledge about the animal world. You can read the information, see the pictures, watch the videos of the animals you want.</p>
+                                    </div>
+                                </div>
+                                <div class="owl-item zBox">               
+                                    <div class="zText">
+                                        <img src="assets/img/Avatar/5.png" alt="">
+                                        <p class="zName">Mr.Customer</p>
+                                        <div class="zStar">
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                        <p>Zootopia has a lot of knowledge about the animal world. You can read the information, see the pictures, watch the videos of the animals you want.</p>
+                                    </div>
+                                </div>
+                                <div class="owl-item zBox">               
+                                    <div class="zText">
+                                        <img src="assets/img/Avatar/6.png" alt="">
+                                        <p class="zName">Mr.Customer</p>
+                                        <div class="zStar">
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                        <p>Zootopia has a lot of knowledge about the animal world. You can read the information, see the pictures, watch the videos of the animals you want.</p>
+                                    </div>
+                                </div>
+                                <div class="owl-item zBox">               
+                                    <div class="zText">
+                                        <img src="assets/img/Avatar/7.png" alt="">
+                                        <p class="zName">Mr.Customer</p>
+                                        <div class="zStar">
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>                                            
+                                            <span class="material-icons">star</span>
+                                        </div>
+                                        <p>Zootopia has a lot of knowledge about the animal world. You can read the information, see the pictures, watch the videos</span> of the animals you want.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="zBlock" class="hide">
+            <div class="container">
+                <div id="zContact" class="zTitle row">
+                    <div class="col-lg">
+                        <h2>Contact</h2>
+                        <p>Our mission is to provide the most efficient platform for online social and learning activities.</p>
+                    </div>
+                </div>
+                <div class="zInput row">
+                        <input class="zInput-s" type="text" placeholder="Name">
+                        <input class="zInput-s" type="text" placeholder="Email">
+                        <textarea class="zInput-b" placeholder="Message"></textarea>
+                        <button>Send</button>
+                </div>
+            </div>
+        </div>
+        <div id="zBlock" class="hide">
+            <div class="container">
+                <div id="zFooter" class="row">
+                    <div class="col-lg-3">
+                        <img src="assets/img/logo_white.svg" alt="">
+                        <p>Our mission is to provide the most efficient platform for online social and learning activities.</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>QUICK LINKS</h4>
+                        <ul>
+                            <li><a href="#">Welcome</a></li>
+                            <li><a href="#zFeature">Feature</a></li>
+                            <li><a href="#zAboutus">About us</a></li>
+                            <li><a href="#zTestimonial">Testimonial</a></li>
+                            <li><a href="#zContact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 otherbut">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Report a bug</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>Subcribe</h4>
+                        <p>Hear new information from us?</p>
+                        <div class="zSub"><input type="text" placeholder="Your email adress">
+                            <span class="material-icons">send</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="zOther" class="hide">
+        <span class="material-icons">close</span>
+        <div class="zText">
+        <h2 style="text-align: center;"><b>PRIVACY POLICY</b></h2>
+        <p>Effective date: 2021-12-21</p>
+        <p>1. <b>Introduction</b></p>
+        <p>Welcome to <b> Zootopia</b>.</p>
+        <p><b>Zootopia</b> (“us”, “we”, or “our”) operates <b>Zootopia.com</b> (hereinafter referred to as <b>“Service”</b>).</p>
+        <p>Our Privacy Policy governs your visit to <b>Zootopia.com</b>, and explains how we collect, safeguard and disclose information that results from your use of our Service.</p>
+        <p>We use your data to provide and improve Service. By using Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</p>
+        <p>Our Terms and Conditions (<b>“Terms”</b>) govern all use of our Service and together with the Privacy Policy constitutes your agreement with us (<b>“agreement”</b>).</p>
+        <p>2. <b>Definitions</b></p>
+        <p><b>SERVICE</b> means the Zootopia.com website operated by Zootopia.</p>
+        <p><b>PERSONAL DATA</b> means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).</p>
+        <p><b>USAGE DATA</b> is data collected automatically either generated by the use of Service or from Service infrastructure itself (for example, the duration of a page visit).</p>
+        <p><b>COOKIES</b> are small files stored on your device (computer or mobile device).</p>
+        <p><b>DATA CONTROLLER</b> means a natural or legal person who (either alone or jointly or in common with other persons) determines the purposes for which and the manner in which any personal data are, or are to be, processed. For the purpose of this Privacy Policy, we are a Data Controller of your data.</p>
+        <p><b>DATA PROCESSORS (OR SERVICE PROVIDERS)</b> means any natural or legal person who processes the data on behalf of the Data Controller. We may use the services of various Service Providers in order to process your data more effectively.</p> <p><b>DATA SUBJECT</b> is any living individual who is the subject of Personal Data.</p>
+        <p><b>THE USER</b> is the individual using our Service. The User corresponds to the Data Subject, who is the subject of Personal Data.</p>
+        <p>3. <b>Information Collection and Use</b></p>
+        <p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+        <p>4. <b>Types of Data Collected</b></p>
+        <p><b>Personal Data</b></p>
+        <p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (<b>“Personal Data”</b>). Personally identifiable information may include, but is not limited to:</p>
+        <p>0.1. Email address</p>
+        <p>0.2. First name and last name</p>
+        <p>0.3. Phone number</p>
+        <p>0.4. Address, Country, State, Province, ZIP/Postal code, City</p>
+        <p>0.5. Cookies and Usage Data</p>
+        <p>We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link.</p>
+        <p><b>Usage Data</b></p>
+        <p>We may also collect information that your browser sends whenever you visit our Service or when you access Service by or through any device (<b>“Usage Data”</b>).</p>
+        <p>This Usage Data may include information such as your computer’s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+        <p>When you access Service with a device, this Usage Data may include information such as the type of device you use, your device unique ID, the IP address of your device, your device operating system, the type of Internet browser you use, unique device identifiers and other diagnostic data.</p>
+        <p><b>Location Data</b></p><p>We may use and store information about your location if you give us permission to do so (<b>“Location Data”</b>). We use this data to provide features of our Service, to improve and customize our Service.</p><p>You can enable or disable location services when you use our Service at any time by way of your device settings.</p>
+        <p><b>Tracking Cookies Data</b></p>
+        <p>We use cookies and similar tracking technologies to track the activity on our Service and we hold certain information.</p>
+        <p>Cookies are files with a small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Other tracking technologies are also used such as beacons, tags and scripts to collect and track information and to improve and analyze our Service.</p>
+        <p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+        <p>Examples of Cookies we use:</p>
+        <p>0.1. <b>Session Cookies:</b> We use Session Cookies to operate our Service.</p>
+        <p>0.2. <b>Preference Cookies:</b> We use Preference Cookies to remember your preferences and various settings.</p>
+        <p>0.3. <b>Security Cookies:</b> We use Security Cookies for security purposes.</p>
+        <p>0.4. <b>Advertising Cookies:</b> Advertising Cookies are used to serve you with advertisements that may be relevant to you and your interests.</p>
+        <p><b>Other Data</b></p>
+        <p>While using our Service, we may also collect the following information: sex, age, date of birth, place of birth, passport details, citizenship, registration at place of residence and actual address, telephone number (work, mobile), details of documents on education, qualification, professional training, employment agreements, <a href="https://policymaker.io/non-disclosure-agreement/">NDA agreements</a>, information on bonuses and compensation, information on marital status, family members, social security (or other taxpayer identification) number, office location and other data.</p>
+        <p>5. <b>Use of Data</b></p>
+        <p>Zootopia uses the collected data for various purposes:</p>
+        <p>0.1. to provide and maintain our Service;</p>
+        <p>0.2. to notify you about changes to our Service;</p>
+        <p>0.3. to allow you to participate in interactive features of our Service when you choose to do so;</p>
+        <p>0.4. to provide customer support;</p>
+        <p>0.5. to gather analysis or valuable information so that we can improve our Service;</p>
+        <p>0.6. to monitor the usage of our Service;</p>
+        <p>0.7. to detect, prevent and address technical issues;</p>
+        <p>0.8. to fulfil any other purpose for which you provide it;</p>
+        <p>0.9. to carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including for billing and collection;</p>
+        <p>0.10. to provide you with notices about your account and/or subscription, including expiration and renewal notices, email-instructions, etc.;</p>
+        <p>0.11. to provide you with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information;</p>
+        <p>0.12. in any other way we may describe when you provide the information;</p>
+        <p>0.13. for any other purpose with your consent.</p>
+        <p>6. <b>Retention of Data</b></p>
+        <p>We will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
+        <p>We will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer time periods.</p>
+        <p>7. <b>Transfer of Data</b></p>
+        <p>Your information, including Personal Data, may be transferred to – and maintained on – computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction.</p>
+        <p>If you are located outside Vietnam and choose to provide information to us, please note that we transfer the data, including Personal Data, to Vietnam and process it there.</p>
+        <p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+        <p>Zootopia will take all the steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organisation or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+        <p>8. <b>Disclosure of Data</b></p>
+        <p>We may disclose personal information that we collect, or you provide:</p>
+        <p>0.1. <b>Disclosure for Law Enforcement.</b></p><p>Under certain circumstances, we may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities.</p><p>0.2. <b>Business Transaction.</b></p><p>If we or our subsidiaries are involved in a merger, acquisition or asset sale, your Personal Data may be transferred.</p><p>0.3. <b>Other cases. We may disclose your information also:</b></p><p>0.3.1. to our subsidiaries and affiliates;</p><p>0.3.2. to contractors, service providers, and other third parties we use to support our business;</p><p>0.3.3. to fulfill the purpose for which you provide it;</p><p>0.3.4. for the purpose of including your company’s logo on our website;</p><p>0.3.5. for any other purpose disclosed by us when you provide the information;</p><p>0.3.6. with your consent in any other cases;</p><p>0.3.7. if we believe disclosure is necessary or appropriate to protect the rights, property, or safety of the Company, our customers, or others.</p>
+        <p>9. <b>Security of Data</b></p>
+        <p>The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+        <p>10. <b>Your Data Protection Rights Under General Data Protection Regulation (GDPR)
+        </b></p>
+        <p>If you are a resident of the European Union (EU) and European Economic Area (EEA), you have certain data protection rights, covered by GDPR.</p>
+        <p>We aim to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.</p>
+        <p> If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please email us at <b>zootopia@zootopia.com</b>.</p>
+        <p>In certain circumstances, you have the following data protection rights:</p>
+        <p>0.1. the right to access, update or to delete the information we have on you;</p>
+        <p>0.2. the right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete;</p>
+        <p>0.3. the right to object. You have the right to object to our processing of your Personal Data;</p>
+        <p>0.4. the right of restriction. You have the right to request that we restrict the processing of your personal information;</p>
+        <p>0.5. the right to data portability. You have the right to be provided with a copy of your Personal Data in a structured, machine-readable and commonly used format;</p>
+        <p>0.6. the right to withdraw consent. You also have the right to withdraw your consent at any time where we rely on your consent to process your personal information;</p>
+        <p>Please note that we may ask you to verify your identity before responding to such requests. Please note, we may not able to provide Service without some necessary data.</p>
+        <p>You have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. For more information, please contact your local data protection authority in the European Economic Area (EEA).</p>
+        <p>11. <b>Your Data Protection Rights under the California Privacy Protection Act (CalOPPA)</b></p>
+        <p>CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy. The law’s reach stretches well beyond California to require a person or company in the United States (and conceivable the world) that operates websites collecting personally identifiable information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals with whom it is being shared, and to comply with this policy.</p>
+        <p>According to CalOPPA we agree to the following:</p>
+        <p>0.1. users can visit our site anonymously;</p>
+        <p>0.2. our Privacy Policy link includes the word “Privacy”, and can easily be found on the home page of our website;</p>
+        <p>0.3. users will be notified of any privacy policy changes on our Privacy Policy Page;</p>
+        <p>0.4. users are able to change their personal information by emailing us at <b>zootopia@zootopia.com</b>.</p>
+        <p>Our Policy on “Do Not Track” Signals:</p>
+        <p>We honor Do Not Track signals and do not track, plant cookies, or use advertising when a Do Not Track browser mechanism is in place. Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.</p>
+        <p>You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser.</p>
+        <p>12. <b>Your Data Protection Rights under the California Consumer Privacy Act (CCPA)</b></p>
+        <p>If you are a California resident, you are entitled to learn what data we collect about you, ask to delete your data and not to sell (share) it. To exercise your data protection rights, you can make certain requests and ask us:</p>
+        <p><b>0.1. What personal information we have about you. If you make this request, we will return to you:</b></p>
+        <p>0.0.1. The categories of personal information we have collected about you.</p>
+        <p>0.0.2. The categories of sources from which we collect your personal information.</p>
+        <p>0.0.3. The business or commercial purpose for collecting or selling your personal information.</p>
+        <p>0.0.4. The categories of third parties with whom we share personal information.</p>
+        <p>0.0.5. The specific pieces of personal information we have collected about you.</p>
+        <p>0.0.6. A list of categories of personal information that we have sold, along with the category of any other company we sold it to. If we have not sold your personal information, we will inform you of that fact.</p>
+        <p>0.0.7. A list of categories of personal information that we have disclosed for a business purpose, along with the category of any other company we shared it with.</p>
+        <p>Please note, you are entitled to ask us to provide you with this information up to two times in a rolling twelve-month period. When you make this request, the information provided may be limited to the personal information we collected about you in the previous 12 months.</p>
+        <p><b>0.2. To delete your personal information. If you make this request, we will delete the personal information we hold about you as of the date of your request from our records and direct any service providers to do the same. In some cases, deletion may be accomplished through de-identification of the information. If you choose to delete your personal information, you may not be able to use certain functions that require your personal information to operate.</b></p>
+        <p><b>0.3. To stop selling your personal information. We don’t sell or rent your personal information to any third parties for any purpose. We do not sell your personal information for monetary consideration. However, under some circumstances, a transfer of personal information to a third party, or within our family of companies, without monetary consideration may be considered a “sale” under California law. You are the only owner of your Personal Data and can request disclosure or deletion at any time.</b></p>
+        <p>If you submit a request to stop selling your personal information, we will stop making such transfers.</p>
+        <p>Please note, if you ask us to delete or stop selling your data, it may impact your experience with us, and you may not be able to participate in certain programs or membership services which require the usage of your personal information to function. But in no circumstances, we will discriminate against you for exercising your rights.</p>
+        <p>To exercise your California data protection rights described above, please send your request(s) by email: <b>zootopia@zootopia.com</b>.</p>
+        <p>Your data protection rights, described above, are covered by the CCPA, short for the California Consumer Privacy Act. To find out more, visit the official California Legislative Information website. The CCPA took effect on 01/01/2020.</p>
+        <p>13. <b>Service Providers</b></p>
+        <p>We may employ third party companies and individuals to facilitate our Service (<b>“Service Providers”</b>), provide Service on our behalf, perform Service-related services or assist us in analysing how our Service is used.</p>
+        <p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+        <p>14. <b>Analytics</b></p>
+        <p>We may use third-party Service Providers to monitor and analyze the use of our Service.</p>
+        <p>15. <b>CI/CD tools</b></p>
+        <p>We may use third-party Service Providers to automate the development process of our Service.</p>
+
+        <p>16. <b>Behavioral Remarketing</b></p>
+        <p>We may use remarketing services to advertise on third party websites to you after you visited our Service. We and our third-party vendors use cookies to inform, optimise and serve ads based on your past visits to our Service.</p>
+        <p>17. <b>Payments</b></p><p>We may provide paid products and/or services within Service. In that case, we use third-party services for payment processing (e.g. payment processors).</p><p>We will not store or collect your payment card details. That information is provided directly to our third-party payment processors whose use of your personal information is governed by their Privacy Policy. These payment processors adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, Mastercard, American Express and Discover. PCI-DSS requirements help ensure the secure handling of payment information.</p>
+        <p>18. <b>Links to Other Sites</b></p>
+        <p>Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party’s site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+        <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+        <p>For example, the outlined <a href="https://policymaker.io/privacy-policy/">privacy policy</a> has been made using <a href="https://policymaker.io/">PolicyMaker.io</a>, a free tool that helps create high-quality legal documents. PolicyMaker’s <a href="https://policymaker.io/privacy-policy/">privacy policy generator</a> is an easy-to-use tool for creating a <a href="https://policymaker.io/blog-privacy-policy/">privacy policy for blog</a>, website, e-commerce store or mobile app.</p>
+        <p>19. <b><b>Children’s Privacy</b></b></p>
+        <p>Our Services are not intended for use by children under the age of 18 (<b>“Child”</b> or <b>“Children”</b>).</p>
+        <p>We do not knowingly collect personally identifiable information from Children under 18. If you become aware that a Child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from Children without verification of parental consent, we take steps to remove that information from our servers.</p>
+        <p>20. <b>Changes to This Privacy Policy</b></p>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+        <p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update “effective date” at the top of this Privacy Policy.</p>
+        <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+        <p>21. <b>Contact Us</b></p>
+        <p>If you have any questions about this Privacy Policy, please contact us by email: <b>zootopia@zootopia.com</b>.</p>
+        <p style="margin-top: 5em; font-size: 0.7em;">This <a href="https://policymaker.io/privacy-policy/">Privacy Policy</a> was created for <b>Zootopia.com</b> by <a href="https://policymaker.io">PolicyMaker.io</a> on 2021-12-21.</p>
+        </div>
+    </div>
+    <div id="zDownload" class="hide">
+        <div class="zBoxs">
+            <div class="container">
+                <div class="row">
+                    <div class="zBox col-lg-5"> 
+                        <h1 class="zHeading">Let's go to the animal world!</h1>
+                        <p class="zText">Zootopia is a social network where you can explore the animal world, share and interact with friends around the world.</p>
+                        <div class="zButtonBox">
+                            <button href="#" class="zButton">
+                                <span class="material-icons">shop</span>
+                                <div>
+                                    <span class="zSmall">Get it on</span>
+                                    <span class="zBig">Google Play</span>
+                                </div>
+                            </button>
+                            <button href="#" class="zButton">
+                                <span class="material-icons">storefront</span>
+                                <div>
+                                    <span class="zSmall">Get it on</span>
+                                    <span class="zBig">Appstore </span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="zBox col-lg-7">
+                        <iframe src="https://www.youtube.com/embed/pBvH8hvnJPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="zSubmenu" class="hide">
+        <ul id="zSubnav">
+            <li><a class="znavActive" href="#">Welcome</a></li>
+            <li><a href="#zFeature">Feature</a></li>
+            <li><a href="#zAbout">About us</a></li>
+            <li><a href="#zTestimonial">Testimonial</a></li>
+            <li><a href="#zContact">Contact</a></li>
+            <li class="zButton"><button>Download</button></li>
+        </ul>
+    </div>
+    <!-- End of feature -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/Owl/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/animal.js"></script> -->
+</body>
+</html>

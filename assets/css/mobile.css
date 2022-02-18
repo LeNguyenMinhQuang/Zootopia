@@ -1,0 +1,246 @@
+@media screen and (max-width: 576px) {
+
+    /* Header */
+    
+    #zHeader {
+        height: 60px;
+    }
+
+    #zWelcomebg {
+        width: 100vw !important;
+    }
+
+    #zHeader .zLogo_area {
+        display: flex; justify-content: flex-start; align-items: center;
+    }
+
+    #zHeader .zLogo_area img {
+        height: 40px;
+    }
+
+    #zHeader .zNav_area {
+        display: none !important;
+    }
+    
+    #zHeader .zMenu {
+        display: block; line-height: 80px; text-align: right; color: white;
+    }
+
+    /* Welcome */
+
+    #zWelcome .row {
+        padding-top: 30vh;
+    }
+
+    #zTigershadow, #zBGtiger, #zBGgrass {
+        display: none !important;
+    }
+
+    #zWelcome .zHeading {
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+        text-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        line-height: 1.4;
+        margin-bottom: 24px;
+    }
+
+    #zWelcome .zText {
+        color: white;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 24px;
+    }
+
+    #zWelcome .zButtonBox {
+        display: flex; flex-direction: column;
+    }
+    
+    #zWelcome .zButton {
+        width: 180px;
+        height: 48px !important;
+        padding: 0 20px;
+        border-radius: 24px;
+        border: none;
+        margin-top: 16px ;
+        background-color: transparent;
+        outline: 2px solid white;
+        display: flex; align-items: center;
+        transition: 0.2s ease-in;
+    }
+
+    /* Feature */
+    #zBlock:first-child {
+        padding-top: 120px !important;
+    }
+    #zBlock {
+        padding: 60px 0 !important;
+    }
+
+    #zBlock .zSlider {
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    #zBlock .zSlider .zBox {
+        display: flex; flex-direction: column-reverse;
+    }
+
+    .zTextRight {
+        text-align: left !important;
+    }
+
+    #zBlock .zSlider .zBox .zText {
+        width: 100%;
+    }
+
+    #zBlock .zSlider .zBox .zImage {
+        width: 100%;
+    }
+
+    #zBlock .zSlider .zBox .zText h3, #zBlock .zScreenshot h3 {
+        margin-top: 40px;
+        font-size: 24px;
+    }
+
+    /* About us */
+
+    .zSpace {
+        margin-top: 60px;
+    }
+
+    #zBlock .zSlider:nth-child(2) {
+        padding:0;
+    }
+
+    #zBlock:nth-child(2) .zSlider #blobSvg {
+        position: absolute;
+        top: 50% !important; left: 50% !important; transform: translate(-50%,-50%) !important;
+        width: 100% !important; height: auto; opacity: 0.1;
+    }
+
+    #zBlock .zPartner {
+        padding-bottom: 0; margin: 0 !important;
+    }
+
+    #zBlock .zPartner .row:first-child {
+        text-align: left;
+    }
+
+    #zBlock .zPartner h3 {
+        font-size: 24px;
+    }
+
+    #zBlock .zPartner .row .col-lg-4 {
+        border-right: none;
+    }
+
+    #zBlock .zPartner img {
+        width: 80%; height: auto !important;
+    }
+
+    #zBlock .zPartner .row .col-lg-4:first-child, #zBlock .zPartner .row .col-lg-4:nth-child(2) {
+        margin-bottom: 60px;
+    }
+
+    /* Contact */
+    #zBlock:nth-child(4) .zInput{
+        margin-top: 40px;
+    }
+
+    #zBlock:nth-child(4) .zInput-s, #zBlock:nth-child(4) .zInput-b {
+        width: 90%;
+    }
+
+    /* Other */
+
+    .zAnimalbackground {display: none;}
+
+    #zOther .zText {
+        height: 100vh; width: 100vw; overflow: auto; padding: 60px 16px; border-radius: 0;
+    }
+
+    #zOther span {
+        position: absolute; color: black; cursor: pointer; top: 16px; right: 16px;
+    }
+
+    /* Download */
+
+    #zDownload .zBoxs {
+        width: 95vw; height: 95vh;
+    }
+
+    #zDownload .row {
+        padding-left: 8vw; padding-top: 10vh;
+    }
+
+    #zDownload .zHeading {
+        font-size: 32px; text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #zDownload .zText {
+        margin-top: 30vh; margin-bottom: 0;
+    }
+
+    #zDownload .zButtonBox {
+        display: flex; flex-direction: column;
+    }
+
+    #zDownload .zButton {
+        margin-top: 16px; width: 180px;
+    }
+
+    /* Subnav */
+    #zSubmenu {
+        display: flex; justify-content: flex-end; background-color: rgba(0,0,0,0.4); position: fixed;
+        top: 0; right: 0; bottom: 0; left: 0; z-index: 16; transition: 0.2s ease-in;
+    }
+    #zSubnav {
+        background-image: linear-gradient(45deg, #F28705 0%, #D7A400 74%); width: 50vw; height: 100vh;
+        display: flex; flex-direction: column; align-items: flex-end; padding: 32px 16px; margin: 0; border-top-left-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1); animation: showmenu 0.2s ease-in;
+    }
+
+    #zSubnav li {
+        list-style-type: none; display: block; margin-bottom: 16px;
+    }
+
+    #zSubnav li a {
+        text-decoration: none; color: white; font-weight: 400;
+    }
+
+    #zSubnav .zButton {
+        width: 100%;
+    }
+
+    #zSubnav button {
+        height: 40px;
+        padding: 0 20px;
+        border-radius: 20px;
+        border: none;
+        margin-right: 16px ;
+        background-color: transparent;
+        outline: 2px solid white;
+        transition: 0.2s ease-in;
+        line-height: 40px; color: white; margin-top: 52vh; width: 100%;
+    }
+
+    @keyframes showmenu {
+        from {
+            opacity: 0; transform: translateX(+100%);
+        }
+        to {
+            opacity: 1; transform: translateX(0);
+        }
+    }
+
+    /* Footer */
+
+    #zBlock:nth-child(5) .zSub {
+        display: flex; justify-content: space-between;
+    }
+
+    #zBlock:nth-child(5) input {
+        width: 95%;
+    }
+}
